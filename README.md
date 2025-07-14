@@ -10,7 +10,7 @@ A machine learning project that classifies emails as **Spam** or **Ham** (Not Sp
 
 ## Requirements
 
-- Python 3.x
+- Python 
 - Pandas
 - NumPy
 - scikit-learn
