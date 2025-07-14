@@ -5,7 +5,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
-# import joblib  # Uncomment this if you want to save the model
 
 # Data Collection & Pre-processing
 raw_mail_data = pd.read_csv('mail_data.csv')
@@ -61,6 +60,4 @@ if prediction[0] == 1:
 else:
     print("Spam mail")
 
-# Optional: Save the model and vectorizer for future use
-# joblib.dump(model, 'spam_classifier_model.pkl')
-# joblib.dump(feature_extraction, 'tfidf_vectorizer.pkl')
+
