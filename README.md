@@ -35,8 +35,8 @@ A machine learning project that classifies emails as **Spam** or **Ham** (Not Sp
 
 ## Accuracy
 
-- **Training Accuracy**: ~91.6%
-- **Testing Accuracy**: ~90.4%
+- **Training Accuracy**: ~96.8%
+- **Testing Accuracy**: ~96.7%
 
 ## Author
 
